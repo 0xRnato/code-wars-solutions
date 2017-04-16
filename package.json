@@ -1,0 +1,20 @@
+{
+  "name": "codewars-solutions",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zRnatoNeto/CodeWars-Solutions.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zRnatoNeto/CodeWars-Solutions/issues"
+  },
+  "homepage": "https://github.com/zRnatoNeto/CodeWars-Solutions#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1"
+  }
+}
