@@ -3,9 +3,9 @@
 // There will always be only one integer that appears an odd number of times.
 
 function findOdd(A) {
-    let numbers = [];
+    const numbers = [];
     A.forEach(function(itemOnA) {
-        let foundedNumber = numbers.find(function(itemOnNumbers) {
+        const foundedNumber = numbers.find(function(itemOnNumbers) {
             return itemOnNumbers.number === itemOnA;
         });
         if (foundedNumber) {
