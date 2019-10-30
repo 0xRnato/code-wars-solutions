@@ -18,8 +18,8 @@
 // Should return: 160
 
 function findOutlier(integers) {
-    let odd = [];
-    let even = [];
+    const odd = [];
+    const even = [];
     integers.forEach(function(element) {
         if (element % 2 == 0) {
             even.push(element);
